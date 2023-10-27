@@ -4,7 +4,10 @@ project(Banque)
 set(CMAKE_CXX_STANDARD 23)
 
 add_executable(Banque main.cpp
-        Date.cpp
-        Date.h
-        Client.cpp
-        Client.h)
+        date.cpp
+        date.h
+        client.cpp
+        Client.h
+        compte.cpp
+        compte.h
+)
